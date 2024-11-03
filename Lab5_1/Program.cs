@@ -3,7 +3,7 @@
 // Лабораторна робота № 5.1
 // Функції, що містять арифметичний вираз
 // Варіант 5
-class Lab5_1
+public class Lab5_1
 {   
     static void Main(string[] args)
     {
@@ -18,7 +18,7 @@ class Lab5_1
 
         Console.WriteLine($"c = {c:F8}");
     }
-    static double h( double a, double b)
+    public static double h( double a, double b)
     {
         return (a)/(Math.Pow(b,2)+1)+(1.0)/(Math.Pow(a,2)+Math.Pow(b,2));
     }
